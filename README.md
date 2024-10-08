@@ -1,7 +1,7 @@
 <img src="https://komarev.com/ghpvc/?username=<your-github-username>&label=Profile+Views&color=2f81f7&style=for-the-badge" />
 
 ## About Me 👤
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&background=FFFFFF00&width=435&lines=Tech-Xplorer+%7C+Developer+%7C+Mentor)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Student+Second+year;Python+Programmer;AI+ML+Enthusiast)](https://git.io/typing-svg)
 
 🔭 I’m currently working on My skills in AI-ML
 
@@ -15,7 +15,7 @@
 
 ## ⚙️ Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c,)](https://skills.thijs.gg)
 
 ## ❤️ Session's Attended
 
@@ -39,4 +39,4 @@
 
 ## 📊 GitHub Stats
 
-![<your-first-name>'s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=<your-github-username>&bg_color=1c1c1c&color=e6e6e6&line=e6e6e6&point=c2c2c2&area=true&area_color=c2c2c2&hide_border=true)
+![<Siddhesh>'s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=<your-github-username>&bg_color=1c1c1c&color=e6e6e6&line=e6e6e6&point=c2c2c2&area=true&area_color=c2c2c2&hide_border=true)
