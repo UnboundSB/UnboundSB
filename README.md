@@ -1,4 +1,4 @@
-<img src="https://komarev.com/ghpvc/?username=<UnboundSB>&label=Profile+Views&color=2f81f7&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=UnboundSB&label=Profile+Views&color=2f81f7&style=for-the-badge" />
 
 ## About Me 👤
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Student+Second+year;Python+Programmer;AI+ML+Enthusiast)](https://git.io/typing-svg)
