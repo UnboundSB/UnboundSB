@@ -1,4 +1,4 @@
-<img src="https://komarev.com/ghpvc/?username=<your-github-username>&label=Profile+Views&color=2f81f7&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=<UnboundSB>&label=Profile+Views&color=2f81f7&style=for-the-badge" />
 
 ## About Me 👤
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Student+Second+year;Python+Programmer;AI+ML+Enthusiast)](https://git.io/typing-svg)
@@ -23,10 +23,10 @@
 
 ## 🤝 Let's get Connected
 <div align="left">
-  <a href="<your-linkedin-profile-url>" target="_blank">
+  <a href="https://www.linkedin.com/in/siddhesh-bhatt-92b27928a/" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:<your-email-address>" target="_blank">
+  <a href="mailto:sidbhatt85@gmail.com" target="_blank">
     <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://twitter.com/<your-twitter-username>" target="_blank">
