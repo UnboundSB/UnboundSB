@@ -19,6 +19,8 @@
 
 [![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c,)](https://skills.thijs.gg)
 
+
+## View my projects [Projects](https://github.com/UnboundSB/UnboundSB/blob/main/projects.md)
 ## ❤️ Session's Attended
 
 - #### Understanding Open Source by MU-ACM & [Atharv Vani](https://www.linkedin.com/in/atharv-vani110/)
