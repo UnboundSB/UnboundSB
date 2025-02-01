@@ -7,17 +7,17 @@
 
 🔭 I’m currently working on My skills in AI-ML
 
-👯 I’m looking to collaborate on MU-ACM's open source project
+👯 I’m looking to collaborate on Vrutti Code Editor
 
 🌱 I’m currently learning Machine Learning
 
-💬 Ask me about Tech and Open Source
+💬 Ask me about Tech, Pyhon and Open Source
 
 ⚡ Fun fact, I can code in day and night both
 
 ## ⚙️ Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=java,python,cpp,c,)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=js,python,cpp,c,)](https://skills.thijs.gg)
 
 
 ## View my projects [Projects](https://github.com/UnboundSB/UnboundSB/blob/main/projects.md)
