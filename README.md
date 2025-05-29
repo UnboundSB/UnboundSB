@@ -45,7 +45,7 @@ fun_fact: Codes better after midnight than before lunch 😎
 | Project | Description | Link |
 |--------|-------------|------|
 | 🔧 **Vrutti Code Editor** | A lightweight, blazing-fast dev editor | [See it](https://github.com/UnboundSB/Vrutti-Code-Editor) |
-| 🤖 **AI Playground (WIP)** | Tiny ML experiments for big impact | [Workbench](https://github.com/UnboundSB) |
+| **My other projects**| big and small ones | [Workbench](https://github.com/UnboundSB?tab=repositories) |
 
 ---
 
