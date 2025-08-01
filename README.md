@@ -44,7 +44,7 @@
 ### **Web & Frameworks**
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Cython](https://img.shields.io/badge/Cython-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Cython](https://img.shields.io/badge/ctypes-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### **Database & Cloud**
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
