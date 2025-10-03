@@ -44,7 +44,7 @@
 ### **Web & Frameworks**
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Cython](https://img.shields.io/badge/ctypes-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 
 ### **Database & Cloud**
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
@@ -62,6 +62,9 @@
 ![Scrum](https://img.shields.io/badge/Scrum-FF6B35?style=for-the-badge&logo=scrumalliance&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
 ![Tool Flexibility](https://img.shields.io/badge/Tool_Adaptability-8A2BE2?style=for-the-badge&logo=tools&logoColor=white)
+
+### **Additional knowledge about**
+![Cython](https://img.shields.io/badge/ctypes-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
