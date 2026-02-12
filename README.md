@@ -114,21 +114,6 @@
 > - 📱 Responsive design for coding anywhere
 
 </div>
-
----
-
-## 🎖️ Certifications & Achievements
-
-<div align="center">
-
-| 🏅 **Certification** | 🏢 **Organization** | 📅 **Status** |
-|:---------------------|:---------------------|:---------------|
-| **Python Professional** | Infosys Springboard | ✅ Certified |
-| **Agile Scrum Master** | Infosys Springboard | ✅ Certified |
-| **AI/ML Engineer** | Infosys Springboard | ✅ Certified |
-
-</div>
-
 ---
 
 ## 📊 GitHub Analytics
