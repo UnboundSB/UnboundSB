@@ -122,16 +122,7 @@
   
 [![GitHub Streak](https://streak-stats.demolab.com?user=UnboundSB&theme=tokyonight&hide_border=true&border_radius=10)](https://git.io/streak-stats)
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=UnboundSB&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
+
 
 </div>
 
