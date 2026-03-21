@@ -134,28 +134,6 @@
 
 ---
 
-## 🏅 Certifications & Achievements
-
-| Certification | Issuer |
-|---|---|
-| 🧠 Deep Learning for Developers (30+ hrs) | — |
-| 🐍 Scientific Computing: Advanced Python Tools | — |
-| 📊 Data Analysis: Pandas, NumPy & Matplotlib | — |
-| 🏛️ Foundational C# | Microsoft |
-| 🔄 Agile Scrum in Practice | — |
-
-**🏆 Smart India Hackathon (SIH) 2025 Finalist** — Led a team to the finale by proposing and engineering a *Remote Classroom for Rural Colleges* solution (Problem Statement 25101), enabling live lecture streaming over 3G networks.
-
----
-
-## 📚 Research Publications
-
-> **International Journal of Scientific Research & Engineering Trends**
->
-> *Energy Theft Detection in Smart Grids Using Graph Neural Networks (GNNs)*
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
