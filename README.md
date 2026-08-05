@@ -153,14 +153,15 @@ DermalScan @ Infosys Springboard
 </details>
 
 ---
-## By The Numbers<div align="center">
+## By The Numbers
 
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=UnboundSB&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=a855f7&fire=f72585&currStreakLabel=00d9ff&sideLabels=a855f7&sideNums=c9d1d9&dates=64748b&border_radius=12" width="90%" alt="GitHub Streak"/>
+<div align="center">
 
 <br/>
+
+<img src="https://streak-stats.demolab.com/?user=UnboundSB&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=a855f7&fire=f72585&currStreakLabel=00d9ff&sideLabels=a855f7&sideNums=c9d1d9&dates=64748b&border_radius=12&v=1" width="90%" alt="GitHub Streak"/>
+
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=UnboundSB&bg_color=0d1117&color=00d9ff&line=a855f7&point=f72585&area=true&area_color=00d9ff&hide_border=true&border_radius=12&custom_title=Siddhesh's%20Contribution%20Graph" width="98%" alt="Activity Graph"/>
 
