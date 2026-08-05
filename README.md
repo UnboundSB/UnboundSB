@@ -155,8 +155,6 @@ DermalScan @ Infosys Springboard
 ---
 ## By The Numbers<div align="center">
 
-<img src="stats.svg" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=12&langs_count=8" height="165" alt="Top Languages"/>
 
 <br/>
 
