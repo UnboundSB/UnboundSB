@@ -1,0 +1,77 @@
+name: Update Native Streak
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants permission to push to your README
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Calculate and Inject Streak
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 1. Fetch the last 365 days of your contribution data directly from GitHub
+            const query = `
+              query($username: String!) {
+                user(login: $username) {
+                  contributionsCollection {
+                    contributionCalendar {
+                      weeks {
+                        contributionDays {
+                          contributionCount
+                          date
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            
+            // context.repo.owner automatically gets your username
+            const variables = { username: context.repo.owner };
+            const result = await github.graphql(query, variables);
+            
+            // 2. Flatten the weeks into a single timeline of days
+            const weeks = result.user.contributionsCollection.contributionCalendar.weeks;
+            const days = weeks.flatMap(week => week.contributionDays);
+            
+            // 3. Calculate the streak
+            let streak = 0;
+            let todayIndex = days.length - 1;
+            
+            // If today has 0 commits, check yesterday so we don't break an active streak early
+            let start = days[todayIndex].contributionCount > 0 ? todayIndex : todayIndex - 1;
+            
+            for (let i = start; i >= 0; i--) {
+              if (days[i].contributionCount > 0) {
+                streak++;
+              } else {
+                break; // Streak broken
+              }
+            }
+            
+            // 4. Inject the new number into the README.md
+            const fs = require('fs');
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+            
+            // Find the tags and replace the text between them
+            const regex = /(<!-- STREAK_START -->)[\s\S]*?(<!-- STREAK_END -->)/;
+            const replacement = `$1\n🔥 **${streak} Days**\n$2`;
+            
+            readme = readme.replace(regex, replacement);
+            fs.writeFileSync(readmePath, readme);
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update native github streak"
