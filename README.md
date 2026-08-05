@@ -153,19 +153,18 @@ DermalScan @ Infosys Springboard
 </details>
 
 ---
-## By The Numbers
-<div align="center">
+## By The Numbers<div align="center">
 
 <img src="stats.svg" height="165" alt="GitHub Stats"/>
-<img src="langs.svg" height="165" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_radius=12&langs_count=8" height="165" alt="Top Languages"/>
 
 <br/>
 
-<img src="streak.svg" width="90%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=UnboundSB&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=a855f7&fire=f72585&currStreakLabel=00d9ff&sideLabels=a855f7&sideNums=c9d1d9&dates=64748b&border_radius=12" width="90%" alt="GitHub Streak"/>
 
 <br/>
 
-<img src="activity.svg" width="98%" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=UnboundSB&bg_color=0d1117&color=00d9ff&line=a855f7&point=f72585&area=true&area_color=00d9ff&hide_border=true&border_radius=12&custom_title=Siddhesh's%20Contribution%20Graph" width="98%" alt="Activity Graph"/>
 
 </div>
 ---
