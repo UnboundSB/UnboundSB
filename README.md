@@ -77,7 +77,7 @@ Energy Theft Detection using GNNs
 </td>
 <td align="center" width="25%">
 
-**🤖Internship**
+**🤖 Internship**
 <br/>
 DermalScan @ Infosys Springboard
 
@@ -153,19 +153,19 @@ DermalScan @ Infosys Springboard
 </details>
 
 ---
+
 ## 📊 By The Numbers
 
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=UnboundSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=a855f7&text_color=c9d1d9&rank_icon=github"
-  width="48%"
+  src="https://github-readme-stats.vercel.app/api?username=UnboundSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=a855f7&text_color=c9d1d9&rank_icon=github&cache_seconds=86400"
+  width="49%"
   alt="Siddhesh's GitHub Stats"
 />
-
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"
-  width="40%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&cache_seconds=86400"
+  width="49%"
   alt="Top Languages"
 />
 
@@ -186,6 +186,7 @@ DermalScan @ Infosys Springboard
 />
 
 </div>
+
 ---
 
 <div align="center">
