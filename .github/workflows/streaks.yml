@@ -1,77 +1,38 @@
-name: Update Native Streak
+name: Auto-update Stats
+
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+    - cron: "0 */6 * * *" # Runs every 6 hours automatically
+  workflow_dispatch: # Gives you a manual "Run workflow" button in the Actions tab
 
 jobs:
-  update-streak:
+  update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Grants permission to push to your README
-    
+      contents: write
+      
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Calculate and Inject Streak
-        uses: actions/github-script@v7
-        with:
-          script: |
-            // 1. Fetch the last 365 days of your contribution data directly from GitHub
-            const query = `
-              query($username: String!) {
-                user(login: $username) {
-                  contributionsCollection {
-                    contributionCalendar {
-                      weeks {
-                        contributionDays {
-                          contributionCount
-                          date
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            `;
-            
-            // context.repo.owner automatically gets your username
-            const variables = { username: context.repo.owner };
-            const result = await github.graphql(query, variables);
-            
-            // 2. Flatten the weeks into a single timeline of days
-            const weeks = result.user.contributionsCollection.contributionCalendar.weeks;
-            const days = weeks.flatMap(week => week.contributionDays);
-            
-            // 3. Calculate the streak
-            let streak = 0;
-            let todayIndex = days.length - 1;
-            
-            // If today has 0 commits, check yesterday so we don't break an active streak early
-            let start = days[todayIndex].contributionCount > 0 ? todayIndex : todayIndex - 1;
-            
-            for (let i = start; i >= 0; i--) {
-              if (days[i].contributionCount > 0) {
-                streak++;
-              } else {
-                break; // Streak broken
-              }
-            }
-            
-            // 4. Inject the new number into the README.md
-            const fs = require('fs');
-            const readmePath = 'README.md';
-            let readme = fs.readFileSync(readmePath, 'utf8');
-            
-            // Find the tags and replace the text between them
-            const regex = /(<!-- STREAK_START -->)[\s\S]*?(<!-- STREAK_END -->)/;
-            const replacement = `$1\n🔥 **${streak} Days**\n$2`;
-            
-            readme = readme.replace(regex, replacement);
-            fs.writeFileSync(readmePath, readme);
+      - name: Fetch Stats and Save Locally
+        run: |
+          mkdir -p assets
+          
+          # Fetch images
+          curl -s -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=UnboundSB&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=a855f7&text_color=c9d1d9&rank_icon=github"
+          curl -s -o assets/langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=UnboundSB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"
+          curl -s -o assets/streak.svg "https://streak-stats.demolab.com/?user=UnboundSB&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=a855f7&fire=f72585&currStreakLabel=00d9ff&sideLabels=a855f7&sideNums=c9d1d9&dates=64748b&border_radius=12"
+          curl -s -o assets/graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=UnboundSB&bg_color=0d1117&color=00d9ff&line=a855f7&point=f72585&area=true&hide_border=true&radius=12"
 
-      - name: Commit and Push
+          # Safety Check: Don't save if the API returned an error
+          if grep -qi "failed" assets/stats.svg; then
+            echo "API is rate limited right now. Aborting to keep the old, working images."
+            exit 0
+          fi
+
+      - name: Commit & Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update native github streak"
+          commit_message: "chore: auto-update github stats"
+          file_pattern: "assets/*.svg"
